@@ -1,0 +1,17 @@
+{
+  "name": "macos-systemprofiler-json",
+  "version": "1.0.0",
+  "description": "Calls system_profiler and returns the results as JSON",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/pkg/lib-es5/bin.js index.js --output build/system_profiler_json --targets host"
+  },
+  "author": "Keaton Burleson",
+  "license": "ISC",
+  "dependencies": {
+    "plist": "^3.0.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.8"
+  }
+}

@@ -1,0 +1,5 @@
+.idea/
+output.plist
+output.json
+node_modules/
+build/
