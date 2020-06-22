@@ -4,7 +4,9 @@
   "description": "Calls system_profiler and returns the results as JSON",
   "main": "index.js",
   "scripts": {
-    "build": "node ./node_modules/pkg/lib-es5/bin.js index.js --output build/system_profiler_json --targets host"
+    "build": "node ./node_modules/pkg/lib-es5/bin.js index.js --output build/system_profiler_json --targets host",
+    "install": "cp ./build/system_profiler_json /usr/local/bin/",
+    "build-install": "npm run build && npm run install"
   },
   "author": "Keaton Burleson",
   "license": "ISC",

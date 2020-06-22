@@ -17,3 +17,12 @@ $ npm run build
 ```
 
 The resulting binary is in `build/`
+
+## Installing
+
+If building from source, just run:
+```shell script
+$ npm run build-install
+```
+
+The binary will be built and copied to `/usr/local/bin`
