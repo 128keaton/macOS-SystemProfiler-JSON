@@ -11,6 +11,7 @@
   "dependencies": {
     "plist": "^3.0.1"
   },
+  "repository": "https://github.com/128keaton/macOS-SystemProfiler-JSON",
   "devDependencies": {
     "pkg": "^4.4.8"
   }

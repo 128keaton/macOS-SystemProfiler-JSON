@@ -4,8 +4,16 @@ Converts the output of `system_profiler` to JSON
 ## Usage
 
 ```shell script
-$ ./run.sh
+$ system_profiler_json [-o output.json]
 ```
 
-In the calling directory, there will be a file called "output.json" which is the final output.
-The JSON output is also called 
+Calling `system_profiler_json` without an output file specified will print the JSON in stdout
+
+## Building
+
+If you installed the `pkg` dependency from the `dev-dependencies` then you should be able to run:
+```shell script
+$ npm run build
+```
+
+The resulting binary is in `build/`
